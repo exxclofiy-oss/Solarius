@@ -1,0 +1,14 @@
+name: Solarius
+version: '1.0.0'
+main: com.plattsmp.solarius.SolariusPlugin
+api-version: '1.21.11'
+author: PlattSMP
+commands:
+  solarius:
+    description: Give Solarius item or show energy
+    usage: /solarius [give|energy]
+permissions:
+  solarius.use:
+    default: true
+  solarius.admin:
+    default: op

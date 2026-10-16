@@ -1,0 +1,22 @@
+energy:
+  hit: 8
+  damaged: 4
+  sunlight-per-second: 2
+abilities:
+  beam:
+    cost: 35
+    cooldown-seconds: 12
+    damage-health: 7.0
+    range: 25
+  duelist:
+    cost: 60
+    cooldown-seconds: 45
+    duration-seconds: 20
+    range: 12
+    strike-damage-health: 2.0
+    execution-damage-health: 4.0
+    damage-reduction: 0.15
+  sunfall:
+    cost: 100
+    cooldown-seconds: 90
+    radius: 7
