@@ -1,0 +1,18 @@
+name: Solarius
+version: '4.0.0'
+main: com.plattsmp.solarius.SolariusPlugin
+api-version: '1.21.11'
+author: PlattSMP
+description: Solarius sun magic with custom hand and sword display models.
+commands:
+  solarius:
+    description: Solar ability items, status, and admin commands
+    usage: /solarius help
+  cooldown:
+    description: Show remaining Solarius cooldowns or reset them as an operator
+    aliases: [cooldowns, solariuscd]
+    usage: /cooldown [player] | /cooldown reset <player> [ability]
+permissions:
+  solarius.admin:
+    description: Give swords, set energy, inspect/reset other players' cooldowns, or reload
+    default: op

@@ -1,0 +1,25 @@
+# Solarius 4.0 — Paper 1.21.11
+energy:
+  hit: 8
+  damaged: 4
+  sunlight-per-second: 2
+ui:
+  action-bar: true
+abilities:
+  beam:
+    cost: 35
+    cooldown-seconds: 12
+    damage-health: 7.0 # 3.5 hearts
+    range: 25
+  duelist:
+    cost: 60
+    cooldown-seconds: 45
+    duration-seconds: 20
+    range: 12
+    strike-damage-health: 2.0 # 1 heart, every 1s alternating hands
+    execution-damage-health: 4.0 # 2 hearts, replaces a normal hit
+    damage-reduction: 0.15
+  sunfall:
+    cost: 100
+    cooldown-seconds: 90
+    radius: 7

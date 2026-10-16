@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "min_format": [
+      75,
+      0
+    ],
+    "max_format": [
+      75,
+      0
+    ],
+    "description": "Solarius SUNFLARE Broadblade: wider crimson flameblade and subtle improved textures (Java 1.21.11)"
+  }
+}

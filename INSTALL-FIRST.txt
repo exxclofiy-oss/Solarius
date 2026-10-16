@@ -1,0 +1,6 @@
+SOLARIUS FINAL — READ THIS FIRST
+
+1. You need 2 things: a compiled plugin JAR on your PAPER SERVER and a RESOURCE PACK in your Minecraft CLIENT.
+2. If you have a working Solarius 4.0 JAR, keep it and only replace the client resource pack with Solarius-ResourcePack-1.21.11.zip.
+3. Otherwise upload contents of this project to your GitHub repo, run Actions > Build Solarius Final, download artifact Solarius-INSTALL-THIS, unzip, and install both files in their proper locations.
+4. See README.md for commands and full steps.
